@@ -11,20 +11,24 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         cryptos = [
-            "EMTK.JK", "ACES.JK", "ADRO.JK", "AKRA.JK", "AMRT.JK", "ANTM.JK",
-            "ARTO.JK", "ASII.JK", "BBCA.JK", "BBNI.JK", "BBRI.JK", "BBTN.JK",
-            "BMRI.JK", "BRPT.JK", "CPIN.JK", "ESSA.JK", "EXCL.JK", "GGRM.JK",
-            "HRUM.JK", "ICBP.JK", "INDY.JK", "INKP.JK", "INTP.JK", "ITMG.JK",
-            "KLBF.JK", "MAPI.JK", "MDKA.JK", "MEDC.JK", "PTBA.JK", "SCMA.JK",
-            "SIDO.JK", "SRTG.JK", "TBIG.JK", "TLKM.JK", "TOWR.JK", "TPIA.JK",
-            "UNVR.JK", "BRIS.JK", "BUKA.JK", "GOTO.JK", "SMGR.JK", "UNTR.JK",
-            "INCO.JK", "INDF.JK", "PGAS.JK",
+            # "EMTK.JK", "ACES.JK", "ADRO.JK", "AKRA.JK", "AMRT.JK", "ANTM.JK",
+            # "ARTO.JK", "ASII.JK", "BBCA.JK", "BBNI.JK", "BBRI.JK", "BBTN.JK",
+            # "BMRI.JK", "BRPT.JK", "CPIN.JK", "ESSA.JK", "EXCL.JK", "GGRM.JK",
+            # "HRUM.JK", "ICBP.JK", "INDY.JK", "INKP.JK", "INTP.JK", "ITMG.JK",
+            # "KLBF.JK", "MAPI.JK", "MDKA.JK", "MEDC.JK", "PTBA.JK", "SCMA.JK",
+            # "SIDO.JK", "SRTG.JK", "TBIG.JK", "TLKM.JK", "TOWR.JK", "TPIA.JK",
+            # "UNVR.JK", "BRIS.JK", "BUKA.JK", "GOTO.JK", "SMGR.JK", "UNTR.JK",
+            # "INCO.JK", "INDF.JK", "PGAS.JK",
             
-            "BTC-USD", "ETH-USD", "SOL-USD", "ADA-USD",
-            "BNB-USD", "XRP-USD", "DOGE-USD",
-            "LTC-USD", "MATIC-USD", "LINK-USD", "FLOW-USD",
-            "THETA-USD", "API3-USD", "MANA-USD", "MTL-USD",
-            "ICP-USD", "ETH-BTC", "MATIC-BTC",
+            "BTC-USD", "ETH-USD",
+            
+            # "SOL-USD", "ADA-USD",
+            # "BNB-USD", "XRP-USD", "DOGE-USD",
+            # "LTC-USD", "MATIC-USD", "LINK-USD", "FLOW-USD",
+            # "THETA-USD", "API3-USD", "MANA-USD", "MTL-USD",
+            # "ICP-USD", "ETH-BTC", "MATIC-BTC",
+
+            "EURUSD=X", "GC=F"
         ]
 
         # Looping terus menerus

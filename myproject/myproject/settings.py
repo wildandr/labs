@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydatabase',
-        'USER': 'root',
-        'PASSWORD': 'Makanmakan3x*',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'mydatabase',  # Name of the database you created
+        'USER': 'django_user',  # Your database user
+        'PASSWORD': 'Admin@1234',  # The password for your database user
+        'HOST': 'localhost',  # Set to empty string for localhost
+        'PORT': '3306',  # Default port for MySQL
     }
 }
 
